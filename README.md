@@ -10,6 +10,7 @@
 - [`1.1.1-runtime-deps`, `1.1-runtime-deps`, `1-runtime-deps`, `runtime-deps` (*1.1/debian/runtime-deps/Dockerfile*)](https://github.com/dotnet/dotnet-docker/blob/master/1.1/debian/runtime-deps/Dockerfile)
 - [`1.1.1-sdk`, `1.1-sdk`, `1-sdk`, `sdk`, `latest` (*1.1/debian/sdk/Dockerfile*)](https://github.com/dotnet/dotnet-docker/blob/master/1.1/debian/sdk/Dockerfile)
 - [`1.1.1-sdk-nanoserver`, `1.1-sdk-nanoserver`, `1-sdk-nanoserver`, `sdk-nanoserver`, `nanoserver` (*1.1/nanoserver/sdk/Dockerfile*)](https://github.com/dotnet/dotnet-docker/blob/master/1.1/nanoserver/sdk/Dockerfile)
+- [`-1.1.1-sdk-1.0.0-preview2-1-003177` (*1.1/debian/sdk/1.0.0-preview2-1-003177/Dockerfile*)](https://github.com/denisivan0v/dotnet-docker/blob/master/1.1/debian/sdk/1.0.0-preview2-1-003177/Dockerfile)
 
 >**Note:** The latest tag no longer uses the project.json project format, but has now been updated to be csproj/MSBuild-based. If you do not wish to [migrate](https://docs.microsoft.com/en-us/dotnet/articles/core/preview3/tools/dotnet-migrate) your existing projects to MSBuild simply change your Dockerfile to use the `1.1.0-sdk-projectjson` or `1.1.0-sdk-projectjson-nanoserver` tag. Going forward, new .NET Core sdk images will be MSBuild-based.
 
